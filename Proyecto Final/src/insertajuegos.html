@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos - Xpress Gaming</title>
+    <link rel="stylesheet" href="../css/estilosxg.css"> <!-- Enlace al archivo CSS -->
+</head>
+<body>
+    <img src="../img/logo.png" alt="Logo de Xpress Gaming" class="logo" style="position: absolute; top: 10px; left: 10px;">
+
+    <h1>JUEGOS</h1>
+
+    <form method="post" action="conexion1.php"> <!-- Formulario que se enviará a "conexion.php" utilizando el método HTTP POST. -->
+        <label for="id_usuario">ID Juego:</label>
+        <input type="text" id="id_juego" name="id_juego" required><br>
+<br>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+<br>
+        <label for="no_jugadores">Numero de jugadores:</label>
+        <input type="text" id="no_jugadores" name="no_jugadores" required><br>
+<br>
+        <label for="formato">Formato:</label>
+        <input type="text" id="formato" name="formato" required><br>
+<br>
+        <label for="genero">Genero:</label>
+        <input type="text" id="genero" name="genero" required><br>
+<br>
+        <label for="fecha_lanzamiento">Fecha de lanzamiento:</label>
+        <input type="text" id="fecha_lanzamiento" name="fecha_lanzamiento" required><br>
+<br>
+        <label for="cantidad_discos">Cantidad de discos:</label>
+        <input type="text" id="cantidad_discos" name="cantidad_discos" required><br>
+<br>
+        <button type="submit">Aceptar</button>
+        <button type="button" onclick="location.href='iniciosesion2.html'">Regresar</button>
+    </form>
+
+    
+</body>
+</html>

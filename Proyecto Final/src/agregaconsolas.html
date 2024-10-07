@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consolas - Xpress Gaming</title>
+    <link rel="stylesheet" href="../css/estilosxg.css"> <!-- Enlace al archivo CSS -->
+</head>
+<body>
+    <img src="../img/logo.png" alt="Logo de Xpress Gaming" class="logo" style="position: absolute; top: 10px; left: 10px;">
+
+    <h1>CONSOLAS</h1>
+
+    <form method="post" action="conexion2.php"> <!-- Formulario que se enviará a "conexion.php" utilizando el método HTTP POST. -->
+        <label for="id_consola">ID Consola:</label>
+        <input type="text" id="id_consola" name="id_consola" required><br>
+<br>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+<br>
+        <label for="fabricante">Fabricante:</label>
+        <input type="text" id="fabricante" name="fabricante" required><br>
+<br>
+        <label for="estado">Estado:</label>
+        <input type="text" id="estado" name="estado" required><br>
+<br>
+        <label for="no_controles">Numero de controles:</label>
+        <input type="text" id="no_controles" name="no_controles" required><br>
+<br>
+        <label for="precio_renta">Precio de renta:</label>
+        <input type="text" id="precio_renta" name="precio_renta" required><br>
+<br>
+        <button type="submit">Aceptar</button>
+        <button type="button" onclick="location.href='iniciosesion2.html'">Regresar</button>
+    </form>
+
+    
+</body>
+</html>
