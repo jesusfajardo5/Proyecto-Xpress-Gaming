@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresar Renta - Xpress Gaming</title>
+    <link rel="stylesheet" href="../css/estilosxg.css"> <!-- Enlace al archivo CSS -->
+</head>
+<body>
+    <img src="../img/logo.png" alt="Logo de Xpress Gaming" class="logo" style="position: absolute; top: 10px; left: 10px;">
+
+    <h1>Ingresar Datos de Renta</h1>
+
+    <!-- Formulario para ingresar datos de la renta -->
+    <form method="post" action="insertar_renta.php">
+        <label for="id_renta">ID Renta:</label>
+        <input type="text" id="id_renta" name="id_renta" required><br>
+<br>
+        <label for="id_usuario">ID Usuario:</label>
+        <input type="text" id="id_usuario" name="id_usuario" required><br>
+<br>
+        <label for="id_consola">ID Consola:</label>
+        <input type="text" id="id_consola" name="id_consola" required><br>
+<br>
+        <label for="id_juego">ID Juego:</label>
+        <input type="text" id="id_juego" name="id_juego" required><br>
+<br>
+        <label for="hora_inicio">Hora de inicio (00:00):</label>
+        <input type="text" id="hora_inicio" name="hora_inicio" required><br>
+<br>
+        <label for="hora_fin">Hora de finalizacion (00:00):</label>
+        <input type="text" id="hora_fin" name="hora_fin" required><br>
+<br>
+        <label for="precio">Precio por hora (fijo):</label>
+        <input type="text" id="precio" value="25" disabled><br>
+        
+<br><br>
+        <label for="precio_total">Precio total:</label>
+        <input type="text" id="precio_total" name="precio_total" required><br>
+<br><br><br>
+        <button type="submit">Ingresar Renta</button>
+        <button type="button" onclick="location.href='menuprincipal.html'">Regresar</button>
+    </form>
+
+</body>
+</html>

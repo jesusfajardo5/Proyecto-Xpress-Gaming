@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Xpress Gaming</title>
+    <link rel="stylesheet" href="../css/estilosxg.css"> <!-- Enlace al archivo CSS -->
+</head>
+<body>
+    <img src="../img/logo.png" alt="Logo de Xpress Gaming" class="logo" style="position: absolute; top: 10px; left: 10px;">
+
+    <h1>Bienvenido a Xpress Gaming</h1>
+
+    <form method="post" action="conexion.php"> <!-- Formulario que se enviará a "conexion.php" utilizando el método HTTP POST. -->
+        <label for="id_usuario">ID Administrador:</label>
+        <input type="text" id="id_administrador" name="id_administrador" required><br>
+<br>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+<br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+<br>
+        <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono" required><br>
+<br>
+        <label for="fecha_registro">Fecha registro:</label>
+        <input type="text" id="fecha_registro" name="fecha_registro" required><br>
+<br>
+        <label for="contrasena">Contraseña:</label>
+        <input type="text" id="contrasena" name="contrasena" required><br>
+<br>
+        <button type="submit">Aceptar</button>
+        <button type="button" onclick="location.href='index.html'">Regresar</button>
+    </form>
+
+    
+</body>
+</html>
+

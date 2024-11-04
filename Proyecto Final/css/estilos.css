@@ -1,0 +1,50 @@
+/* Fondo negro y texto verde para todo el cuerpo */
+.menuprincipal {
+    background-color: #1C1C1C; /* Fondo negro */ i
+    color: #00FF00;            /* Texto verde */
+    font-family: Arial, sans-serif; /* Fuente genérica */
+}
+
+/* Cambiar el fondo y color del navbar */
+.navbar {
+    background-color: #1C1C1C; /* Fondo negro para el navbar */ i
+    color: #00FF00;            /* Texto verde */
+}
+
+
+.navbar .navbar-text, 
+.navbar .nav-link {
+    color: #00FF00;  /* Texto verde para los enlaces del navbar */ i
+}
+
+/* Cambiar el fondo de las cards */
+.card {
+    background-color: #1C1C1C;   /* Fondo negro para las cards */ i
+    color: #00FF00;              /* Texto verde */
+    border: 1px solid #00FF00;   /* Borde verde */
+}
+
+/* Cambiar el color del texto de los títulos de las cards */
+.card-title {
+    color: #00FF00; /* Texto verde para los títulos */ i
+}
+
+/* Cambiar el color de los enlaces en las cards */
+.card .btn-link {
+    color: #00FF00; /* Texto verde para los botones de enlace */ i
+}
+
+.card .btn-link:hover {
+    color: #00CC00; /* Verde más oscuro al pasar el ratón sobre el enlace */
+}
+
+/* Cambiar el fondo y color del contenedor */
+.container-fluid, .container {
+    background-color: #1C1C1C; /* Fondo negro para los contenedores */ i
+    color: #00FF00;            /* Texto verde */  i
+}
+
+/* Estilo para el carousel */
+
+
+   
